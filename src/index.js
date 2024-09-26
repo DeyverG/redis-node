@@ -4,8 +4,7 @@ const redis = require("redis");
 const responseTime = require("response-time");
 const app = express();
 const port = 3000;
-const url =
-  "https://5fuyjppwp8.execute-api.us-east-1.amazonaws.com/pdn//comfama/vacantes-api/api/v1/vacantes";
+const url = "url";
 
 const client = redis.createClient({
   host: "localhost",
